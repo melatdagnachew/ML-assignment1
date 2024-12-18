@@ -24,7 +24,7 @@ else:
 
 # Transpose data for easier feature analysis
 data_transposed = data.T
-
+print(data_transposed.head())
 # Ensure the index is strings for proper plotting
 data_transposed.index = data_transposed.index.astype(str)
 
