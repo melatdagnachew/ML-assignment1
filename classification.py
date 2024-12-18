@@ -6,7 +6,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 
 # Load and preprocess the dataset
-file_path = r"C:\Users\Melat\Documents\ML first assignment\Agricultural_Ethiopia_Indicators.csv"
+file_path = "Agricultural_Ethiopia_Indicators.csv"
+
 data = pd.read_csv(file_path, header=1, index_col=0)
 
 # Clean column names
